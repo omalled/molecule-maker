@@ -1,0 +1,773 @@
+{
+  "H": {
+    "name": "Hydrogen",
+    "kid_facts": [
+      "Most common element; stars are mostly hydrogen."
+    ]
+  },
+  "He": {
+    "name": "Helium",
+    "kid_facts": [
+      "Helium makes balloons float and doesn\u2019t burn."
+    ]
+  },
+  "Li": {
+    "name": "Lithium",
+    "kid_facts": [
+      "Lithium is used in rechargeable batteries."
+    ]
+  },
+  "Be": {
+    "name": "Beryllium",
+    "kid_facts": [
+      "Beryllium helps make emeralds (beryl)."
+    ]
+  },
+  "B": {
+    "name": "Boron",
+    "kid_facts": [
+      "Boron makes strong glass and borax."
+    ]
+  },
+  "C": {
+    "name": "Carbon",
+    "kid_facts": [
+      "Carbon forms diamond and graphite\u2014and life."
+    ]
+  },
+  "N": {
+    "name": "Nitrogen",
+    "kid_facts": [
+      "Nitrogen is 78% of Earth\u2019s air."
+    ]
+  },
+  "O": {
+    "name": "Oxygen",
+    "kid_facts": [
+      "Oxygen helps you breathe and fuels fires."
+    ]
+  },
+  "F": {
+    "name": "Fluorine",
+    "kid_facts": [
+      "Fluorine is extremely reactive; in toothpaste as fluoride compounds."
+    ]
+  },
+  "Ne": {
+    "name": "Neon",
+    "kid_facts": [
+      "Neon glows bright in signs."
+    ]
+  },
+  "Na": {
+    "name": "Sodium",
+    "kid_facts": [
+      "Sodium + chlorine = table salt."
+    ]
+  },
+  "Mg": {
+    "name": "Magnesium",
+    "kid_facts": [
+      "Magnesium burns with a bright white flame."
+    ]
+  },
+  "Al": {
+    "name": "Aluminium",
+    "kid_facts": [
+      "Aluminum is light; used in planes and cans."
+    ]
+  },
+  "Si": {
+    "name": "Silicon",
+    "kid_facts": [
+      "Silicon is the base of computer chips."
+    ]
+  },
+  "P": {
+    "name": "Phosphorus",
+    "kid_facts": [
+      "Phosphorus can glow faintly in the dark."
+    ]
+  },
+  "S": {
+    "name": "Sulfur",
+    "kid_facts": [
+      "Sulfur can smell like rotten eggs when burned."
+    ]
+  },
+  "Cl": {
+    "name": "Chlorine",
+    "kid_facts": [
+      "Chlorine keeps pools clean (in compounds)."
+    ]
+  },
+  "Ar": {
+    "name": "Argon",
+    "kid_facts": [
+      "Argon protects hot filaments in bulbs."
+    ]
+  },
+  "K": {
+    "name": "Potassium",
+    "kid_facts": [
+      "Potassium is important for nerves in your body."
+    ]
+  },
+  "Ca": {
+    "name": "Calcium",
+    "kid_facts": [
+      "Calcium builds strong bones and teeth."
+    ]
+  },
+  "Sc": {
+    "name": "Scandium",
+    "kid_facts": [
+      "Scandium is used in bright lights and alloys."
+    ]
+  },
+  "Ti": {
+    "name": "Titanium",
+    "kid_facts": [
+      "Titanium is strong and light; used in jets."
+    ]
+  },
+  "V": {
+    "name": "Vanadium",
+    "kid_facts": [
+      "Vanadium strengthens steel."
+    ]
+  },
+  "Cr": {
+    "name": "Chromium",
+    "kid_facts": [
+      "Chromium makes stainless steel shiny."
+    ]
+  },
+  "Mn": {
+    "name": "Manganese",
+    "kid_facts": [
+      "Manganese helps make steel tough."
+    ]
+  },
+  "Fe": {
+    "name": "Iron",
+    "kid_facts": [
+      "Iron carries oxygen in your blood (hemoglobin)."
+    ]
+  },
+  "Co": {
+    "name": "Cobalt",
+    "kid_facts": [
+      "Cobalt colors glass blue and powers batteries."
+    ]
+  },
+  "Ni": {
+    "name": "Nickel",
+    "kid_facts": [
+      "Nickel is found in many coins and alloys."
+    ]
+  },
+  "Cu": {
+    "name": "Copper",
+    "kid_facts": [
+      "Copper is great for electrical wires."
+    ]
+  },
+  "Zn": {
+    "name": "Zinc",
+    "kid_facts": [
+      "Zinc protects steel from rusting (galvanizing)."
+    ]
+  },
+  "Ga": {
+    "name": "Gallium",
+    "kid_facts": [
+      "Gallium can melt in your hand (low melting point)."
+    ]
+  },
+  "Ge": {
+    "name": "Germanium",
+    "kid_facts": [
+      "Germanium was used in early transistors."
+    ]
+  },
+  "As": {
+    "name": "Arsenic",
+    "kid_facts": [
+      "Arsenic is poisonous; used carefully in industry."
+    ]
+  },
+  "Se": {
+    "name": "Selenium",
+    "kid_facts": [
+      "Selenium helps solar cells and photocopiers."
+    ]
+  },
+  "Br": {
+    "name": "Bromine",
+    "kid_facts": [
+      "Bromine is a red-brown liquid at room temp."
+    ]
+  },
+  "Kr": {
+    "name": "Krypton",
+    "kid_facts": [
+      "Krypton is used in special high-speed flashes."
+    ]
+  },
+  "Rb": {
+    "name": "Rubidium",
+    "kid_facts": [
+      "Rubidium reacts violently with water."
+    ]
+  },
+  "Sr": {
+    "name": "Strontium",
+    "kid_facts": [
+      "Strontium gives red color to fireworks."
+    ]
+  },
+  "Y": {
+    "name": "Yttrium",
+    "kid_facts": [
+      "Yttrium is used in LEDs and lasers."
+    ]
+  },
+  "Zr": {
+    "name": "Zirconium",
+    "kid_facts": [
+      "Zirconium resists corrosion; used in reactors."
+    ]
+  },
+  "Nb": {
+    "name": "Niobium",
+    "kid_facts": [
+      "Niobium makes superconducting magnets."
+    ]
+  },
+  "Mo": {
+    "name": "Molybdenum",
+    "kid_facts": [
+      "Molybdenum raises steel\u2019s strength at high temps."
+    ]
+  },
+  "Tc": {
+    "name": "Technetium",
+    "kid_facts": [
+      "Technetium is radioactive; used in medical imaging."
+    ]
+  },
+  "Ru": {
+    "name": "Ruthenium",
+    "kid_facts": [
+      "Ruthenium hardens platinum and palladium."
+    ]
+  },
+  "Rh": {
+    "name": "Rhodium",
+    "kid_facts": [
+      "Rhodium helps clean car exhaust (catalytic converters)."
+    ]
+  },
+  "Pd": {
+    "name": "Palladium",
+    "kid_facts": [
+      "Palladium is used in electronics and catalysts."
+    ]
+  },
+  "Ag": {
+    "name": "Silver",
+    "kid_facts": [
+      "Silver conducts electricity very well."
+    ]
+  },
+  "Cd": {
+    "name": "Cadmium",
+    "kid_facts": [
+      "Cadmium used in batteries; must be handled safely."
+    ]
+  },
+  "In": {
+    "name": "Indium",
+    "kid_facts": [
+      "Indium makes touchscreens work (ITO)."
+    ]
+  },
+  "Sn": {
+    "name": "Tin",
+    "kid_facts": [
+      "Tin protects steel from rust (tin cans)."
+    ]
+  },
+  "Sb": {
+    "name": "Antimony",
+    "kid_facts": [
+      "Antimony is used in flame retardants."
+    ]
+  },
+  "Te": {
+    "name": "Tellurium",
+    "kid_facts": [
+      "Tellurium helps solar panels (CdTe)."
+    ]
+  },
+  "I": {
+    "name": "Iodine",
+    "kid_facts": [
+      "Iodine is added to salt for thyroid health."
+    ]
+  },
+  "Xe": {
+    "name": "Xenon",
+    "kid_facts": [
+      "Xenon goes into bright car headlights."
+    ]
+  },
+  "Cs": {
+    "name": "Cesium",
+    "kid_facts": [
+      "Cesium clocks are super accurate."
+    ]
+  },
+  "Ba": {
+    "name": "Barium",
+    "kid_facts": [
+      "Barium makes X\u2011ray images clearer (contrast)."
+    ]
+  },
+  "La": {
+    "name": "Lanthanum",
+    "kid_facts": [
+      "Lanthanum is used in camera lenses."
+    ]
+  },
+  "Ce": {
+    "name": "Cerium",
+    "kid_facts": [
+      "Cerium helps catalytic converters and glass polishing."
+    ]
+  },
+  "Pr": {
+    "name": "Praseodymium",
+    "kid_facts": [
+      "Praseodymium colors glass and magnets."
+    ]
+  },
+  "Nd": {
+    "name": "Neodymium",
+    "kid_facts": [
+      "Neodymium makes very strong magnets."
+    ]
+  },
+  "Pm": {
+    "name": "Promethium",
+    "kid_facts": [
+      "Promethium is radioactive; used in glow-in-the-dark paint historically."
+    ]
+  },
+  "Sm": {
+    "name": "Samarium",
+    "kid_facts": [
+      "Samarium magnets resist demagnetizing."
+    ]
+  },
+  "Eu": {
+    "name": "Europium",
+    "kid_facts": [
+      "Europium makes red in TV and LED screens."
+    ]
+  },
+  "Gd": {
+    "name": "Gadolinium",
+    "kid_facts": [
+      "Gadolinium helps MRI contrast."
+    ]
+  },
+  "Tb": {
+    "name": "Terbium",
+    "kid_facts": [
+      "Terbium makes green phosphors in screens."
+    ]
+  },
+  "Dy": {
+    "name": "Dysprosium",
+    "kid_facts": [
+      "Dysprosium helps magnets stay strong at heat."
+    ]
+  },
+  "Ho": {
+    "name": "Holmium",
+    "kid_facts": [
+      "Holmium has the highest magnetic strength."
+    ]
+  },
+  "Er": {
+    "name": "Erbium",
+    "kid_facts": [
+      "Erbium colors glass pink; used in fiber optics."
+    ]
+  },
+  "Tm": {
+    "name": "Thulium",
+    "kid_facts": [
+      "Thulium is rare; used in lasers."
+    ]
+  },
+  "Yb": {
+    "name": "Ytterbium",
+    "kid_facts": [
+      "Ytterbium helps fiber laser technology."
+    ]
+  },
+  "Lu": {
+    "name": "Lutetium",
+    "kid_facts": [
+      "Lutetium is used in PET scan detectors."
+    ]
+  },
+  "Hf": {
+    "name": "Hafnium",
+    "kid_facts": [
+      "Hafnium is used in superalloys and chips."
+    ]
+  },
+  "Ta": {
+    "name": "Tantalum",
+    "kid_facts": [
+      "Tantalum is used in capacitors and phones."
+    ]
+  },
+  "W": {
+    "name": "Tungsten",
+    "kid_facts": [
+      "Tungsten has the highest melting point of metals."
+    ]
+  },
+  "Re": {
+    "name": "Rhenium",
+    "kid_facts": [
+      "Rhenium is used in jet engine alloys."
+    ]
+  },
+  "Os": {
+    "name": "Osmium",
+    "kid_facts": [
+      "Osmium is very dense and hard."
+    ]
+  },
+  "Ir": {
+    "name": "Iridium",
+    "kid_facts": [
+      "Iridium is very corrosion\u2011resistant."
+    ]
+  },
+  "Pt": {
+    "name": "Platinum",
+    "kid_facts": [
+      "Platinum is a catalyst and jewelry metal."
+    ]
+  },
+  "Au": {
+    "name": "Gold",
+    "kid_facts": [
+      "Gold does not tarnish and conducts well."
+    ]
+  },
+  "Hg": {
+    "name": "Mercury",
+    "kid_facts": [
+      "Mercury is a liquid metal at room temp."
+    ]
+  },
+  "Tl": {
+    "name": "Thallium",
+    "kid_facts": [
+      "Thallium compounds must be handled carefully (toxic)."
+    ]
+  },
+  "Pb": {
+    "name": "Lead",
+    "kid_facts": [
+      "Lead is heavy; used in shielding; toxic if ingested."
+    ]
+  },
+  "Bi": {
+    "name": "Bismuth",
+    "kid_facts": [
+      "Bismuth is heavy but less toxic than lead."
+    ]
+  },
+  "Po": {
+    "name": "Polonium",
+    "kid_facts": [
+      "Polonium is highly radioactive."
+    ]
+  },
+  "At": {
+    "name": "Astatine",
+    "kid_facts": [
+      "Astatine is extremely rare and radioactive."
+    ]
+  },
+  "Rn": {
+    "name": "Radon",
+    "kid_facts": [
+      "Radon is a radioactive gas found in some basements."
+    ]
+  },
+  "Fr": {
+    "name": "Francium",
+    "kid_facts": [
+      "Francium is extremely rare and short\u2011lived."
+    ]
+  },
+  "Ra": {
+    "name": "Radium",
+    "kid_facts": [
+      "Radium glows faintly; it\u2019s radioactive."
+    ]
+  },
+  "Ac": {
+    "name": "Actinium",
+    "kid_facts": [
+      "Actinium is radioactive and glows in the dark."
+    ]
+  },
+  "Th": {
+    "name": "Thorium",
+    "kid_facts": [
+      "Thorium may power future reactors (research)."
+    ]
+  },
+  "Pa": {
+    "name": "Protactinium",
+    "kid_facts": [
+      "Protactinium is very rare and radioactive."
+    ]
+  },
+  "U": {
+    "name": "Uranium",
+    "kid_facts": [
+      "Uranium fuels nuclear reactors."
+    ]
+  },
+  "Np": {
+    "name": "Neptunium",
+    "kid_facts": [
+      "Neptunium is synthetic and radioactive."
+    ]
+  },
+  "Pu": {
+    "name": "Plutonium",
+    "kid_facts": [
+      "Plutonium is used in nuclear energy and research."
+    ]
+  },
+  "Am": {
+    "name": "Americium",
+    "kid_facts": [
+      "Americium is in smoke detectors."
+    ]
+  },
+  "Cm": {
+    "name": "Curium",
+    "kid_facts": [
+      "Curium is highly radioactive; named for the Curies."
+    ]
+  },
+  "Bk": {
+    "name": "Berkelium",
+    "kid_facts": [
+      "Berkelium was discovered in Berkeley, California."
+    ]
+  },
+  "Cf": {
+    "name": "Californium",
+    "kid_facts": [
+      "Californium can help start nuclear reactors."
+    ]
+  },
+  "Es": {
+    "name": "Einsteinium",
+    "kid_facts": [
+      "Einsteinium is named after Albert Einstein."
+    ]
+  },
+  "Fm": {
+    "name": "Fermium",
+    "kid_facts": [
+      "Fermium is made in nuclear explosions."
+    ]
+  },
+  "Md": {
+    "name": "Mendelevium",
+    "kid_facts": [
+      "Mendelevium honors Dmitri Mendeleev."
+    ]
+  },
+  "No": {
+    "name": "Nobelium",
+    "kid_facts": [
+      "Nobelium honors Alfred Nobel."
+    ]
+  },
+  "Lr": {
+    "name": "Lawrencium",
+    "kid_facts": [
+      "Lawrencium honors Ernest Lawrence."
+    ]
+  },
+  "Rf": {
+    "name": "Rutherfordium",
+    "kid_facts": [
+      "Rutherfordium honors Ernest Rutherford."
+    ]
+  },
+  "Db": {
+    "name": "Dubnium",
+    "kid_facts": [
+      "Dubnium is named after Dubna, Russia."
+    ]
+  },
+  "Sg": {
+    "name": "Seaborgium",
+    "kid_facts": [
+      "Seaborgium honors Glenn Seaborg."
+    ]
+  },
+  "Bh": {
+    "name": "Bohrium",
+    "kid_facts": [
+      "Bohrium honors Niels Bohr."
+    ]
+  },
+  "Hs": {
+    "name": "Hassium",
+    "kid_facts": [
+      "Hassium is named after Hesse in Germany."
+    ]
+  },
+  "Mt": {
+    "name": "Meitnerium",
+    "kid_facts": [
+      "Meitnerium honors Lise Meitner."
+    ]
+  },
+  "Ds": {
+    "name": "Darmstadtium",
+    "kid_facts": [
+      "Darmstadtium is named after Darmstadt, Germany."
+    ]
+  },
+  "Rg": {
+    "name": "Roentgenium",
+    "kid_facts": [
+      "Roentgenium honors Wilhelm R\u00f6ntgen."
+    ]
+  },
+  "Cn": {
+    "name": "Copernicium",
+    "kid_facts": [
+      "Copernicium honors Nicolaus Copernicus."
+    ]
+  },
+  "Nh": {
+    "name": "Nihonium",
+    "kid_facts": [
+      "Nihonium means \u201cJapan\u201d in Japanese."
+    ]
+  },
+  "Fl": {
+    "name": "Flerovium",
+    "kid_facts": [
+      "Flerovium honors Flerov Laboratory in Russia."
+    ]
+  },
+  "Mc": {
+    "name": "Moscovium",
+    "kid_facts": [
+      "Moscovium honors Moscow region."
+    ]
+  },
+  "Lv": {
+    "name": "Livermorium",
+    "kid_facts": [
+      "Livermorium honors Livermore, California."
+    ]
+  },
+  "Ts": {
+    "name": "Tennessine",
+    "kid_facts": [
+      "Tennessine honors Tennessee, USA."
+    ]
+  },
+  "Og": {
+    "name": "Oganesson",
+    "kid_facts": [
+      "Oganesson honors Yuri Oganessian; very short\u2011lived."
+    ]
+  },
+  "H2": {
+    "name": "Hydrogen gas",
+    "kid_facts": [
+      "Super light gas; rockets use it."
+    ],
+    "example_uses": [
+      "Rocket fuel"
+    ]
+  },
+  "O2": {
+    "name": "Oxygen gas",
+    "kid_facts": [
+      "About 21% of air is oxygen."
+    ],
+    "example_uses": [
+      "Breathing"
+    ]
+  },
+  "N2": {
+    "name": "Nitrogen gas",
+    "kid_facts": [
+      "78% of air is nitrogen."
+    ],
+    "example_uses": [
+      "Food packaging"
+    ]
+  },
+  "H2O": {
+    "name": "Water",
+    "kid_facts": [
+      "Water has a bent shape."
+    ],
+    "example_uses": [
+      "Drinking"
+    ]
+  },
+  "CO2": {
+    "name": "Carbon dioxide",
+    "kid_facts": [
+      "Plants use CO\u2082 and make oxygen."
+    ],
+    "example_uses": [
+      "Fizzy drinks"
+    ]
+  },
+  "CH4": {
+    "name": "Methane",
+    "kid_facts": [
+      "Main part of natural gas."
+    ],
+    "example_uses": [
+      "Fuel"
+    ]
+  },
+  "NH3": {
+    "name": "Ammonia",
+    "kid_facts": [
+      "Strong smell; used in cleaners."
+    ],
+    "example_uses": [
+      "Fertilizer"
+    ]
+  }
+}

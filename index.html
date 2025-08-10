@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>Molecule Maker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🧪 Molecule Maker</h1>
+    <div class="controls">
+      <button id="suggest" title="Load an example" class="pill">Example</button>
+      <button id="check" title="Recalculate" class="pill">Recalc</button>
+      <label class="pill" style="display:inline-flex;align-items:center;gap:.4rem">
+        <input type="checkbox" id="ionic"> Ionic mode
+      </label>
+    </div>
+  </header>
+
+  <div id="wrap">
+    <section id="periodic">
+      <div id="grid" aria-label="Periodic table as tappable tiles"></div>
+    </section>
+
+    <section id="builder">
+      <div id="formula" aria-live="polite">—</div>
+      <div id="meta">
+        <span class="badge">Mass: <span id="mass">—</span></span>
+        <span class="badge" id="plaus">—</span>
+      </div>
+      <div id="builderList"></div>
+
+      <!-- Unified visualization panel -->
+      <div id="vizpanel">
+        <div class="vizbar">
+          <button id="toggle3d" class="pill" style="display:none">Show 3D</button>
+          <button id="nextIso" class="pill" style="display:none">Next isomer</button>
+          <span id="pcStatus" class="pcstatus"></span>
+        </div>
+        <div id="pubchem2d"><img id="pubchem2dimg" alt="2D structure"/></div>
+        <div id="viewer3d" style="display:none;"></div>
+      </div>
+
+      <div id="molfacts" style="font-size:.95rem;line-height:1.35"></div>
+    </section>
+  </div>
+
+  <footer>
+    <div>
+      <button id="back" class="pill" disabled>Undo</button>
+      <button id="clear" class="pill">Clear</button>
+    </div>
+    <div class="right">
+      <span style="opacity:.7;font-size:.9rem">Long-press a tile for a fun fact.</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="https://3dmol.csb.pitt.edu/build/3Dmol.js"></script>
+</body>
+</html>

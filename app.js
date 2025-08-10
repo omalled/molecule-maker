@@ -71,12 +71,25 @@ function buildPeriodic(){
       }
       div.innerHTML = `<div class="num">${e.atomicNumber}</div><div class="sym">${e.symbol}</div>`;
       div.addEventListener("click", () => addAtom(e.symbol, 1));
+
       let pressTimer=null;
-      div.addEventListener("touchstart", (ev)=>{ ev.preventDefault(); pressTimer=setTimeout(()=> showFact(e), 600); }, {passive:false});
-      const cancel=(ev)=>{ if(ev) ev.preventDefault(); if(pressTimer){ clearTimeout(pressTimer); pressTimer=null; } };
-      div.addEventListener("touchend", cancel, {passive:false});
-      div.addEventListener("touchmove", cancel, {passive:false});
-      div.addEventListener("touchcancel", cancel, {passive:false});
+      let longPress=false;
+      // handle long-press facts while still allowing simple taps on touch devices
+      div.addEventListener("touchstart", ()=>{
+        longPress=false;
+        pressTimer=setTimeout(()=>{ longPress=true; showFact(e); }, 600);
+      }, {passive:true});
+      const cancel=()=>{ if(pressTimer){ clearTimeout(pressTimer); pressTimer=null; } };
+      div.addEventListener("touchmove", cancel, {passive:true});
+      div.addEventListener("touchcancel", cancel, {passive:true});
+      div.addEventListener("touchend", (ev)=>{
+        if(pressTimer){
+          clearTimeout(pressTimer);
+          pressTimer=null;
+          if(!longPress) addAtom(e.symbol,1);
+        }
+        ev.preventDefault();
+      }, {passive:false});
       div.addEventListener("contextmenu", (ev)=>{ev.preventDefault(); showFact(e);});
       grid.appendChild(div);
     }
